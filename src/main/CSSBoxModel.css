@@ -7,7 +7,7 @@ as a demonstration and complete the styling for the .pizza class and individual 
     case the content is "CSS Box Model" */
     color: darkblue;
     background-color: lightblue;
-
+    
     /* Padding represents the space between the content and border */
     padding: 10px;
 
@@ -25,22 +25,23 @@ as a demonstration and complete the styling for the .pizza class and individual 
     border: 10px solid saddlebrown; /* Crust (border) */
 
     /* TODO: Make the margin 20px - Margin represents the space between each pizza (element) */
-
+    margin: 20px;
     width: 100px; /* Width of the content area */
     text-align: center; /* Centers the text */
 }
 
 #pizza1 {
     color: orange; /* The content color is orange - this is the word "Four Cheese" */
-
+    background-color: yellow;
     /* TODO: Make the background-color yellow. This is the background of the content. */
 }
 
 #pizza2 {
 
     /* TODO: Make the content color red - this is the word "Pepperoni" */
-
+    color: red;
     background-color: wheat;
+    border: 5px solid saddlebrown;
 
     /* TODO: Make the border 5px solid saddlebrown - this represents a thin crust */
 }
@@ -50,4 +51,5 @@ as a demonstration and complete the styling for the .pizza class and individual 
     /* TODO: You burnt the Veggie Pizza! Make the border black solid 10px - this represents the crust. */
     color: darkgreen;
     background-color: lightgreen;
+    border: 10px solid black;
 }
